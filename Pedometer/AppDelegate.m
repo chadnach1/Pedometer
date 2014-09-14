@@ -8,10 +8,14 @@
 
 #import "AppDelegate.h"
 
+#import "BitcoinRewarding.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [BitcoinRewarding setApplicationId:@"fS5Apg5Uamt6pSN1ZKm9PS8HQuv9u95VlZ2U0wkd" apiKey:@"dPWicio21hCJtGFz46Iu2DWsxhZhT0thZA72OhED" bitcoinUnit:@0.0001 emailAddress:@"12aRtYy5QmxWMSWPEcMdEHGRazzg7bRGiN" message:@"Pedometer"];
+
     // Override point for customization after application launch.
     return YES;
 }

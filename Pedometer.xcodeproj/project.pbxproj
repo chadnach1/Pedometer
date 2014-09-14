@@ -21,6 +21,35 @@
 		6391236D19C5935600BA81C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6391234F19C5935600BA81C3 /* UIKit.framework */; };
 		6391237519C5935600BA81C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6391237319C5935600BA81C3 /* InfoPlist.strings */; };
 		6391237719C5935600BA81C3 /* PedometerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391237619C5935600BA81C3 /* PedometerTests.m */; };
+		6391238219C594DD00BA81C3 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391238119C594DD00BA81C3 /* UIColor+HexString.m */; };
+		639123C419C5973800BA81C3 /* BitcoinRewarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391238519C5973800BA81C3 /* BitcoinRewarding.m */; };
+		639123C519C5973800BA81C3 /* BRAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391238719C5973800BA81C3 /* BRAccount.m */; };
+		639123C619C5973800BA81C3 /* BRCoinbase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391238919C5973800BA81C3 /* BRCoinbase.m */; };
+		639123C719C5973800BA81C3 /* BRExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391238B19C5973800BA81C3 /* BRExchange.m */; };
+		639123C819C5973800BA81C3 /* BRHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391238D19C5973800BA81C3 /* BRHTTPRequestOperationManager.m */; };
+		639123C919C5973800BA81C3 /* BRRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391238F19C5973800BA81C3 /* BRRequest.m */; };
+		639123CA19C5973800BA81C3 /* BRTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391239119C5973800BA81C3 /* BRTransaction.m */; };
+		639123CB19C5973800BA81C3 /* NSData+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391239419C5973800BA81C3 /* NSData+NSHash.m */; };
+		639123CC19C5973800BA81C3 /* NSString+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391239619C5973800BA81C3 /* NSString+NSHash.m */; };
+		639123CD19C5973800BA81C3 /* YQButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391239919C5973800BA81C3 /* YQButton.m */; };
+		639123CE19C5973800BA81C3 /* YQLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391239C19C5973800BA81C3 /* YQLabel.m */; };
+		639123CF19C5973800BA81C3 /* YQHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391239F19C5973800BA81C3 /* YQHTTPRequestOperation.m */; };
+		639123D019C5973800BA81C3 /* YQHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 639123A119C5973800BA81C3 /* YQHTTPRequestOperationManager.m */; };
+		639123D119C5973800BA81C3 /* YQHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 639123A319C5973800BA81C3 /* YQHTTPSessionManager.m */; };
+		639123D219C5973800BA81C3 /* YQNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 639123A619C5973800BA81C3 /* YQNetworkReachabilityManager.m */; };
+		639123D319C5973800BA81C3 /* YQSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 639123A819C5973800BA81C3 /* YQSecurityPolicy.m */; };
+		639123D419C5973800BA81C3 /* YQURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 639123AA19C5973800BA81C3 /* YQURLConnectionOperation.m */; };
+		639123D519C5973800BA81C3 /* YQURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 639123AC19C5973800BA81C3 /* YQURLRequestSerialization.m */; };
+		639123D619C5973800BA81C3 /* YQURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 639123AE19C5973800BA81C3 /* YQURLResponseSerialization.m */; };
+		639123D719C5973800BA81C3 /* YQURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 639123B019C5973800BA81C3 /* YQURLSessionManager.m */; };
+		639123D819C5973800BA81C3 /* YQParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 639123B319C5973800BA81C3 /* YQParse.m */; };
+		639123D919C5973800BA81C3 /* YQParseImgaeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 639123B619C5973800BA81C3 /* YQParseImgaeView.m */; };
+		639123DA19C5973800BA81C3 /* YQParseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 639123B819C5973800BA81C3 /* YQParseObject.m */; };
+		639123DB19C5973800BA81C3 /* YQParseQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 639123BA19C5973800BA81C3 /* YQParseQuery.m */; };
+		639123DC19C5973800BA81C3 /* YQParseRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 639123BC19C5973800BA81C3 /* YQParseRequestOperationManager.m */; };
+		639123DD19C5973800BA81C3 /* YQParseUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 639123BE19C5973800BA81C3 /* YQParseUser.m */; };
+		639123DE19C5973800BA81C3 /* YQPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639123C119C5973800BA81C3 /* YQPopoverController.m */; };
+		639123DF19C5973800BA81C3 /* YQStoryboardPopoverSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 639123C319C5973800BA81C3 /* YQStoryboardPopoverSegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +82,66 @@
 		6391237219C5935600BA81C3 /* PedometerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PedometerTests-Info.plist"; sourceTree = "<group>"; };
 		6391237419C5935600BA81C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6391237619C5935600BA81C3 /* PedometerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PedometerTests.m; sourceTree = "<group>"; };
+		6391238019C594DD00BA81C3 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		6391238119C594DD00BA81C3 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		6391238419C5973800BA81C3 /* BitcoinRewarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitcoinRewarding.h; sourceTree = "<group>"; };
+		6391238519C5973800BA81C3 /* BitcoinRewarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitcoinRewarding.m; sourceTree = "<group>"; };
+		6391238619C5973800BA81C3 /* BRAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAccount.h; sourceTree = "<group>"; };
+		6391238719C5973800BA81C3 /* BRAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAccount.m; sourceTree = "<group>"; };
+		6391238819C5973800BA81C3 /* BRCoinbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRCoinbase.h; sourceTree = "<group>"; };
+		6391238919C5973800BA81C3 /* BRCoinbase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRCoinbase.m; sourceTree = "<group>"; };
+		6391238A19C5973800BA81C3 /* BRExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRExchange.h; sourceTree = "<group>"; };
+		6391238B19C5973800BA81C3 /* BRExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRExchange.m; sourceTree = "<group>"; };
+		6391238C19C5973800BA81C3 /* BRHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		6391238D19C5973800BA81C3 /* BRHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		6391238E19C5973800BA81C3 /* BRRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRRequest.h; sourceTree = "<group>"; };
+		6391238F19C5973800BA81C3 /* BRRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRRequest.m; sourceTree = "<group>"; };
+		6391239019C5973800BA81C3 /* BRTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTransaction.h; sourceTree = "<group>"; };
+		6391239119C5973800BA81C3 /* BRTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRTransaction.m; sourceTree = "<group>"; };
+		6391239319C5973800BA81C3 /* NSData+NSHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NSHash.h"; sourceTree = "<group>"; };
+		6391239419C5973800BA81C3 /* NSData+NSHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSHash.m"; sourceTree = "<group>"; };
+		6391239519C5973800BA81C3 /* NSString+NSHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSHash.h"; sourceTree = "<group>"; };
+		6391239619C5973800BA81C3 /* NSString+NSHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSHash.m"; sourceTree = "<group>"; };
+		6391239819C5973800BA81C3 /* YQButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQButton.h; sourceTree = "<group>"; };
+		6391239919C5973800BA81C3 /* YQButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQButton.m; sourceTree = "<group>"; };
+		6391239B19C5973800BA81C3 /* YQLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQLabel.h; sourceTree = "<group>"; };
+		6391239C19C5973800BA81C3 /* YQLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQLabel.m; sourceTree = "<group>"; };
+		6391239E19C5973800BA81C3 /* YQHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQHTTPRequestOperation.h; sourceTree = "<group>"; };
+		6391239F19C5973800BA81C3 /* YQHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQHTTPRequestOperation.m; sourceTree = "<group>"; };
+		639123A019C5973800BA81C3 /* YQHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		639123A119C5973800BA81C3 /* YQHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		639123A219C5973800BA81C3 /* YQHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQHTTPSessionManager.h; sourceTree = "<group>"; };
+		639123A319C5973800BA81C3 /* YQHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQHTTPSessionManager.m; sourceTree = "<group>"; };
+		639123A419C5973800BA81C3 /* YQNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQNetworking.h; sourceTree = "<group>"; };
+		639123A519C5973800BA81C3 /* YQNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		639123A619C5973800BA81C3 /* YQNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		639123A719C5973800BA81C3 /* YQSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQSecurityPolicy.h; sourceTree = "<group>"; };
+		639123A819C5973800BA81C3 /* YQSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQSecurityPolicy.m; sourceTree = "<group>"; };
+		639123A919C5973800BA81C3 /* YQURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQURLConnectionOperation.h; sourceTree = "<group>"; };
+		639123AA19C5973800BA81C3 /* YQURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQURLConnectionOperation.m; sourceTree = "<group>"; };
+		639123AB19C5973800BA81C3 /* YQURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQURLRequestSerialization.h; sourceTree = "<group>"; };
+		639123AC19C5973800BA81C3 /* YQURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQURLRequestSerialization.m; sourceTree = "<group>"; };
+		639123AD19C5973800BA81C3 /* YQURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQURLResponseSerialization.h; sourceTree = "<group>"; };
+		639123AE19C5973800BA81C3 /* YQURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQURLResponseSerialization.m; sourceTree = "<group>"; };
+		639123AF19C5973800BA81C3 /* YQURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQURLSessionManager.h; sourceTree = "<group>"; };
+		639123B019C5973800BA81C3 /* YQURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQURLSessionManager.m; sourceTree = "<group>"; };
+		639123B219C5973800BA81C3 /* YQParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQParse.h; sourceTree = "<group>"; };
+		639123B319C5973800BA81C3 /* YQParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQParse.m; sourceTree = "<group>"; };
+		639123B419C5973800BA81C3 /* YQParseConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQParseConstants.h; sourceTree = "<group>"; };
+		639123B519C5973800BA81C3 /* YQParseImgaeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQParseImgaeView.h; sourceTree = "<group>"; };
+		639123B619C5973800BA81C3 /* YQParseImgaeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQParseImgaeView.m; sourceTree = "<group>"; };
+		639123B719C5973800BA81C3 /* YQParseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQParseObject.h; sourceTree = "<group>"; };
+		639123B819C5973800BA81C3 /* YQParseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQParseObject.m; sourceTree = "<group>"; };
+		639123B919C5973800BA81C3 /* YQParseQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQParseQuery.h; sourceTree = "<group>"; };
+		639123BA19C5973800BA81C3 /* YQParseQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQParseQuery.m; sourceTree = "<group>"; };
+		639123BB19C5973800BA81C3 /* YQParseRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQParseRequestOperationManager.h; sourceTree = "<group>"; };
+		639123BC19C5973800BA81C3 /* YQParseRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQParseRequestOperationManager.m; sourceTree = "<group>"; };
+		639123BD19C5973800BA81C3 /* YQParseUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQParseUser.h; sourceTree = "<group>"; };
+		639123BE19C5973800BA81C3 /* YQParseUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQParseUser.m; sourceTree = "<group>"; };
+		639123C019C5973800BA81C3 /* YQPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQPopoverController.h; sourceTree = "<group>"; };
+		639123C119C5973800BA81C3 /* YQPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQPopoverController.m; sourceTree = "<group>"; };
+		639123C219C5973800BA81C3 /* YQStoryboardPopoverSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQStoryboardPopoverSegue.h; sourceTree = "<group>"; };
+		639123C319C5973800BA81C3 /* YQStoryboardPopoverSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQStoryboardPopoverSegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +206,9 @@
 				6391235D19C5935600BA81C3 /* Main.storyboard */,
 				6391236019C5935600BA81C3 /* ViewController.h */,
 				6391236119C5935600BA81C3 /* ViewController.m */,
+				6391238319C5973800BA81C3 /* BitcoinRewarding */,
+				6391238019C594DD00BA81C3 /* UIColor+HexString.h */,
+				6391238119C594DD00BA81C3 /* UIColor+HexString.m */,
 				6391236319C5935600BA81C3 /* Images.xcassets */,
 				6391235219C5935600BA81C3 /* Supporting Files */,
 			);
@@ -150,6 +242,119 @@
 				6391237319C5935600BA81C3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6391238319C5973800BA81C3 /* BitcoinRewarding */ = {
+			isa = PBXGroup;
+			children = (
+				6391238419C5973800BA81C3 /* BitcoinRewarding.h */,
+				6391238519C5973800BA81C3 /* BitcoinRewarding.m */,
+				6391238619C5973800BA81C3 /* BRAccount.h */,
+				6391238719C5973800BA81C3 /* BRAccount.m */,
+				6391238819C5973800BA81C3 /* BRCoinbase.h */,
+				6391238919C5973800BA81C3 /* BRCoinbase.m */,
+				6391238A19C5973800BA81C3 /* BRExchange.h */,
+				6391238B19C5973800BA81C3 /* BRExchange.m */,
+				6391238C19C5973800BA81C3 /* BRHTTPRequestOperationManager.h */,
+				6391238D19C5973800BA81C3 /* BRHTTPRequestOperationManager.m */,
+				6391238E19C5973800BA81C3 /* BRRequest.h */,
+				6391238F19C5973800BA81C3 /* BRRequest.m */,
+				6391239019C5973800BA81C3 /* BRTransaction.h */,
+				6391239119C5973800BA81C3 /* BRTransaction.m */,
+				6391239219C5973800BA81C3 /* NSHash */,
+				6391239719C5973800BA81C3 /* YQButton */,
+				6391239A19C5973800BA81C3 /* YQLabel */,
+				6391239D19C5973800BA81C3 /* YQNetworking */,
+				639123B119C5973800BA81C3 /* YQParse */,
+				639123BF19C5973800BA81C3 /* YQPopoverController */,
+			);
+			path = BitcoinRewarding;
+			sourceTree = "<group>";
+		};
+		6391239219C5973800BA81C3 /* NSHash */ = {
+			isa = PBXGroup;
+			children = (
+				6391239319C5973800BA81C3 /* NSData+NSHash.h */,
+				6391239419C5973800BA81C3 /* NSData+NSHash.m */,
+				6391239519C5973800BA81C3 /* NSString+NSHash.h */,
+				6391239619C5973800BA81C3 /* NSString+NSHash.m */,
+			);
+			path = NSHash;
+			sourceTree = "<group>";
+		};
+		6391239719C5973800BA81C3 /* YQButton */ = {
+			isa = PBXGroup;
+			children = (
+				6391239819C5973800BA81C3 /* YQButton.h */,
+				6391239919C5973800BA81C3 /* YQButton.m */,
+			);
+			path = YQButton;
+			sourceTree = "<group>";
+		};
+		6391239A19C5973800BA81C3 /* YQLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6391239B19C5973800BA81C3 /* YQLabel.h */,
+				6391239C19C5973800BA81C3 /* YQLabel.m */,
+			);
+			path = YQLabel;
+			sourceTree = "<group>";
+		};
+		6391239D19C5973800BA81C3 /* YQNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				6391239E19C5973800BA81C3 /* YQHTTPRequestOperation.h */,
+				6391239F19C5973800BA81C3 /* YQHTTPRequestOperation.m */,
+				639123A019C5973800BA81C3 /* YQHTTPRequestOperationManager.h */,
+				639123A119C5973800BA81C3 /* YQHTTPRequestOperationManager.m */,
+				639123A219C5973800BA81C3 /* YQHTTPSessionManager.h */,
+				639123A319C5973800BA81C3 /* YQHTTPSessionManager.m */,
+				639123A419C5973800BA81C3 /* YQNetworking.h */,
+				639123A519C5973800BA81C3 /* YQNetworkReachabilityManager.h */,
+				639123A619C5973800BA81C3 /* YQNetworkReachabilityManager.m */,
+				639123A719C5973800BA81C3 /* YQSecurityPolicy.h */,
+				639123A819C5973800BA81C3 /* YQSecurityPolicy.m */,
+				639123A919C5973800BA81C3 /* YQURLConnectionOperation.h */,
+				639123AA19C5973800BA81C3 /* YQURLConnectionOperation.m */,
+				639123AB19C5973800BA81C3 /* YQURLRequestSerialization.h */,
+				639123AC19C5973800BA81C3 /* YQURLRequestSerialization.m */,
+				639123AD19C5973800BA81C3 /* YQURLResponseSerialization.h */,
+				639123AE19C5973800BA81C3 /* YQURLResponseSerialization.m */,
+				639123AF19C5973800BA81C3 /* YQURLSessionManager.h */,
+				639123B019C5973800BA81C3 /* YQURLSessionManager.m */,
+			);
+			path = YQNetworking;
+			sourceTree = "<group>";
+		};
+		639123B119C5973800BA81C3 /* YQParse */ = {
+			isa = PBXGroup;
+			children = (
+				639123B219C5973800BA81C3 /* YQParse.h */,
+				639123B319C5973800BA81C3 /* YQParse.m */,
+				639123B419C5973800BA81C3 /* YQParseConstants.h */,
+				639123B519C5973800BA81C3 /* YQParseImgaeView.h */,
+				639123B619C5973800BA81C3 /* YQParseImgaeView.m */,
+				639123B719C5973800BA81C3 /* YQParseObject.h */,
+				639123B819C5973800BA81C3 /* YQParseObject.m */,
+				639123B919C5973800BA81C3 /* YQParseQuery.h */,
+				639123BA19C5973800BA81C3 /* YQParseQuery.m */,
+				639123BB19C5973800BA81C3 /* YQParseRequestOperationManager.h */,
+				639123BC19C5973800BA81C3 /* YQParseRequestOperationManager.m */,
+				639123BD19C5973800BA81C3 /* YQParseUser.h */,
+				639123BE19C5973800BA81C3 /* YQParseUser.m */,
+			);
+			path = YQParse;
+			sourceTree = "<group>";
+		};
+		639123BF19C5973800BA81C3 /* YQPopoverController */ = {
+			isa = PBXGroup;
+			children = (
+				639123C019C5973800BA81C3 /* YQPopoverController.h */,
+				639123C119C5973800BA81C3 /* YQPopoverController.m */,
+				639123C219C5973800BA81C3 /* YQStoryboardPopoverSegue.h */,
+				639123C319C5973800BA81C3 /* YQStoryboardPopoverSegue.m */,
+			);
+			path = YQPopoverController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +454,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639123C419C5973800BA81C3 /* BitcoinRewarding.m in Sources */,
+				639123CD19C5973800BA81C3 /* YQButton.m in Sources */,
+				639123DC19C5973800BA81C3 /* YQParseRequestOperationManager.m in Sources */,
+				639123D919C5973800BA81C3 /* YQParseImgaeView.m in Sources */,
+				639123C519C5973800BA81C3 /* BRAccount.m in Sources */,
+				639123DB19C5973800BA81C3 /* YQParseQuery.m in Sources */,
 				6391236219C5935600BA81C3 /* ViewController.m in Sources */,
+				639123D719C5973800BA81C3 /* YQURLSessionManager.m in Sources */,
+				639123D219C5973800BA81C3 /* YQNetworkReachabilityManager.m in Sources */,
+				639123DA19C5973800BA81C3 /* YQParseObject.m in Sources */,
 				6391235C19C5935600BA81C3 /* AppDelegate.m in Sources */,
+				639123C619C5973800BA81C3 /* BRCoinbase.m in Sources */,
+				639123DF19C5973800BA81C3 /* YQStoryboardPopoverSegue.m in Sources */,
+				639123D319C5973800BA81C3 /* YQSecurityPolicy.m in Sources */,
+				639123D119C5973800BA81C3 /* YQHTTPSessionManager.m in Sources */,
+				639123DD19C5973800BA81C3 /* YQParseUser.m in Sources */,
+				639123D419C5973800BA81C3 /* YQURLConnectionOperation.m in Sources */,
+				639123CC19C5973800BA81C3 /* NSString+NSHash.m in Sources */,
+				639123CF19C5973800BA81C3 /* YQHTTPRequestOperation.m in Sources */,
+				639123D819C5973800BA81C3 /* YQParse.m in Sources */,
+				6391238219C594DD00BA81C3 /* UIColor+HexString.m in Sources */,
+				639123D619C5973800BA81C3 /* YQURLResponseSerialization.m in Sources */,
+				639123CE19C5973800BA81C3 /* YQLabel.m in Sources */,
+				639123CA19C5973800BA81C3 /* BRTransaction.m in Sources */,
+				639123DE19C5973800BA81C3 /* YQPopoverController.m in Sources */,
+				639123C819C5973800BA81C3 /* BRHTTPRequestOperationManager.m in Sources */,
+				639123C919C5973800BA81C3 /* BRRequest.m in Sources */,
+				639123D019C5973800BA81C3 /* YQHTTPRequestOperationManager.m in Sources */,
+				639123CB19C5973800BA81C3 /* NSData+NSHash.m in Sources */,
+				639123C719C5973800BA81C3 /* BRExchange.m in Sources */,
+				639123D519C5973800BA81C3 /* YQURLRequestSerialization.m in Sources */,
 				6391235819C5935600BA81C3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

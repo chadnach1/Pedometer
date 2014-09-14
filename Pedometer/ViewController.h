@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+
+float px;
+float py;
+float pz;
+
+int numSteps;
+BOOL isChange;
+BOOL isSleeping;
+    
+}
+
+@property (retain, nonatomic) IBOutlet UILabel *headingLabel;
 
 @end
