@@ -56,15 +56,15 @@
     
     headingLabel.text = [NSString stringWithFormat:@"%d", numSteps];
     
-    if (headingLabel.text == @"20") {
+    /*if (headingLabel.text == @"20") {
         
-        [BitcoinRewarding sendO2];
+        //[BitcoinRewarding sendO2];
         
         NSString *message = [NSString stringWithFormat:@"You get %@ bitcoin", [BitcoinRewarding getBitcoinUnit]];
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Congratulations" message:message delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
         [alert show];
 
-    }
+    }*/
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -86,14 +86,14 @@
             isSleeping = YES;
             [self performSelector:@selector(wakeUp) withObject:nil afterDelay:0.3];
             numSteps += 1;
-            if (numSteps == 10) {
+            /*if (numSteps == 10) {
                 
                 [BitcoinRewarding sendO2];
                 
                 NSString *message = [NSString stringWithFormat:@"You get %@ bitcoin", [BitcoinRewarding getBitcoinUnit]];
                 UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Congratulations" message:message delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
                 [alert show];
-            }
+            }*/
 
             headingLabel.text = [NSString stringWithFormat:@"%d", numSteps];
                 
